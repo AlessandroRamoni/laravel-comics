@@ -13,7 +13,9 @@
 
     @include('partials.header')
 
-    @yield('nomePerIlCollegamento')
+    <div class="container">
+        @yield('nomePerIlCollegamento')
+    </div>
 
     @include('partials.footer')
 
