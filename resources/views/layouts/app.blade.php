@@ -17,6 +17,8 @@
         @yield('nomePerIlCollegamento')
     </div>
 
+    @include('partials.banner')
+
     @include('partials.footer')
 
 </body>

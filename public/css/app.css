@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .card {
@@ -22,6 +24,20 @@
   box-sizing: border-box;
 }
 
+section {
+  background-color: #0282f9;
+}
+
+section nav .container-banner {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+section nav .container-banner ul {
+  list-style: none;
+  display: flex;
+}
+
 header {
   background-color: aquamarine;
 }
@@ -31,6 +47,8 @@ header nav ul {
   gap: 20px;
   list-style: none;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 header ul li a {
