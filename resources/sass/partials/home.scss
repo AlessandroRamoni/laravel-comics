@@ -1,0 +1,17 @@
+.copertine {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card {
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+
+    img {
+        width: 100%;
+    }
+}

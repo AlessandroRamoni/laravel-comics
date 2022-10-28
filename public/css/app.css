@@ -1,0 +1,39 @@
+.copertine {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.card {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.card img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aquamarine;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
