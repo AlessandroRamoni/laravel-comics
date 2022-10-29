@@ -1,5 +1,6 @@
 section {
     background-color: #0282f9;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 section nav .container-banner {
@@ -10,4 +11,23 @@ section nav .container-banner {
 section nav .container-banner ul {
     list-style: none;
     display: flex;
+    justify-content: space-around;
+}
+
+section nav .container-banner ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 0.7em;
+}
+
+section nav .container-banner ul li a {
+    padding-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+section nav .container-banner ul li img {
+    width: 50px;
 }

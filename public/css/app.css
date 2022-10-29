@@ -1,3 +1,7 @@
+.container-fumetti {
+  background-color: black;
+}
+
 .copertine {
   display: flex;
   flex-wrap: wrap;
@@ -12,10 +16,25 @@
   margin: 10px;
   background-color: white;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  font-family: "Luckiest Guy", cursive;
 }
 
-.card img {
+.card .contenitore-immagine img {
   width: 100%;
+  display: block;
+}
+
+.card .contenitore-titolo {
+  background-color: black;
+}
+
+.card .contenitore-titolo h2 {
+  font-size: 1em;
+  color: #ffffff;
+  padding-top: 5px;
 }
 
 * {
@@ -24,22 +43,9 @@
   box-sizing: border-box;
 }
 
-section {
-  background-color: #0282f9;
-}
-
-section nav .container-banner {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-section nav .container-banner ul {
-  list-style: none;
-  display: flex;
-}
-
 header {
-  background-color: aquamarine;
+  background-color: #ffffff;
+  font-family: "Luckiest Guy", cursive;
 }
 
 header nav ul {
@@ -51,7 +57,106 @@ header nav ul {
   max-width: 1000px;
 }
 
+header nav ul li {
+  align-self: center;
+}
+
+header nav ul li:hover {
+  border-bottom-color: 3px solid rgb(6, 6, 187);
+}
+
 header ul li a {
   text-decoration: none;
+  color: #252525;
+}
+
+header ul li a:hover {
+  color: rgb(6, 6, 187);
+}
+
+header .contenitore-immagine {
+  max-width: 100%;
+}
+
+header .contenitore-immagine img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.menu-header li img {
+  width: 70%;
+}
+
+footer .container-footer .container-elenchi div ul li {
+  color: red;
+}
+
+.container-footer {
+  max-width: 100%;
+}
+
+.container-footer img {
+  width: 100%;
+}
+
+.container-elenchi {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+#left-ul {
+  padding-left: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+ul li {
+  color: #ffffff;
+}
+
+ul li:first-child {
+  font-size: 1.3em;
+  padding-bottom: 5px;
+}
+
+section {
+  background-color: #0282f9;
+  font-family: "Luckiest Guy", cursive;
+}
+
+section nav .container-banner {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+section nav .container-banner ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+section nav .container-banner ul li {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 0.7em;
+}
+
+section nav .container-banner ul li a {
+  padding-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+section nav .container-banner ul li img {
+  width: 50px;
 }
 

@@ -1,0 +1,37 @@
+footer .container-footer .container-elenchi div ul li {
+    color: red;
+}
+
+.container-footer {
+    max-width: 100%;
+}
+
+.container-footer img {
+    width: 100%;
+}
+
+.container-elenchi {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+#left-ul {
+    padding-left: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+ul li {
+    color: #ffffff;
+}
+
+ul li:first-child {
+    font-size: 1.3em;
+    padding-bottom: 5px;
+}

@@ -1,6 +1,7 @@
 <header>
     <nav>
-        <ul>
+        <ul class="menu-header">
+            <li><a href=""><img src="{{ asset('images/dc-logo.png') }}" alt="logo"></a></li>
             <li><a href="">CHARACTERS</a></li>
             <li><a href="">COMICS</a></li>
             <li><a href="">MOVIES</a></li>
@@ -13,7 +14,7 @@
             <li><a href="">SHOP</a></li>
         </ul>
     </nav>
-    <div>
+    <div class="contenitore-immagine">
         <img src="{{ asset('images/jumbotron.jpg') }}" alt="jumbotron">
     </div>
 </header>

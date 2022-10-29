@@ -1,5 +1,6 @@
 header {
-    background-color: aquamarine;
+    background-color: #ffffff;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 header nav ul {
@@ -11,6 +12,33 @@ header nav ul {
     max-width: 1000px;
 }
 
+header nav ul li {
+    align-self: center;
+
+    &:hover {
+        border-bottom-color: 3px solid rgb(6, 6, 187);
+    }
+}
+
 header ul li a {
     text-decoration: none;
+    color: #252525;
+
+    &:hover {
+        color: rgb(6, 6, 187);
+    }
+}
+
+header .contenitore-immagine {
+    max-width: 100%;
+}
+
+header .contenitore-immagine img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.menu-header li img {
+    width: 70%;
 }

@@ -3,26 +3,26 @@
         <div class="container-banner">
             <ul>
                 <li>
-                    <a href="#"><img src="{{ asset('images/buy-comics-digital-comics.png') }}"
-                            alt="" /></a>DIGITAL
-                    COMICS
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="" /><a
+                        href="#">DIGITAL
+                        COMICS</a>
                 </li>
                 <li>
-                    <a href="#"><img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="" /></a>DC
-                    MERCHANDISE
+                    <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="" /><a href="#">DC
+                        MERCHANDISE</a>
                 </li>
                 <li>
-                    <a href="#"><img src="{{ asset('images/buy-comics-subscriptions.png') }}"
-                            alt="" /></a>SUBSCRIPTION
+                    <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="" /><a
+                        href="#">SUBSCRIPTION</a>
                 </li>
                 <li>
-                    <a href="#"><img src="{{ asset('images/buy-comics-shop-locator.png') }}"
-                            alt="" /></a>COMIC
-                    SHOP LOCATOR
+                    <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="" /><a
+                        href="#">COMIC
+                        SHOP LOCATOR</a>
                 </li>
                 <li>
-                    <a href="#"><img src="{{ asset('images/buy-comics-digital-comics.png') }}"
-                            alt="" /></a>DC POWER VISA
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="" /><a href="#">DC
+                        POWER VISA</a>
                 </li>
             </ul>
         </div>
