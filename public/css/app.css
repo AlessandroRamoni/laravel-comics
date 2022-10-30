@@ -88,12 +88,22 @@ header .contenitore-immagine img {
   width: 70%;
 }
 
+footer {
+  background-image: "url('{{ asset('../partials/sass/public/images/footer-bg-jpg')}}');";
+  font-family: "Luckiest Guy", cursive;
+}
+
 footer .container-footer .container-elenchi div ul li {
-  color: red;
+  font-family: "Luckiest Guy", cursive;
+  color: black;
 }
 
 .container-footer {
   max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .container-footer img {
@@ -124,6 +134,49 @@ ul li {
 ul li:first-child {
   font-size: 1.3em;
   padding-bottom: 5px;
+}
+
+footer .container-footer .logo-footer {
+  width: 300px;
+}
+
+footer .container-footer .logo-footer img {
+  width: 100%;
+  z-index: -5;
+}
+
+.contenitore-icone {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100px;
+}
+
+.sfondo-basso-footer {
+  background-color: #303030;
+  height: 100px;
+}
+
+.contenitore-icone div button {
+  height: 40px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #303030;
+  border: 3px solid #0282f4;
+  margin-left: 20px;
+  font-family: "Luckiest Guy", cursive;
+  margin-top: 25px;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+}
+
+#social div {
+  color: #0282f4;
+  padding-right: 20px;
 }
 
 section {
