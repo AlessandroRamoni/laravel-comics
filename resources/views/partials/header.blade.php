@@ -15,6 +15,6 @@
         </ul>
     </nav>
     <div class="contenitore-immagine">
-        <img src="{{ asset('images/jumbotron.jpg') }}" alt="jumbotron">
+
     </div>
 </header>

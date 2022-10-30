@@ -30,7 +30,9 @@ header ul li a {
 }
 
 header .contenitore-immagine {
-    max-width: 100%;
+    background-image: url('/images/jumbotron.jpg');
+    height: 350px;
+    background-position: top center;
 }
 
 header .contenitore-immagine img {

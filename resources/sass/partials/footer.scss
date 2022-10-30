@@ -1,6 +1,7 @@
 footer {
-    background-image: "url('{{ asset('../partials/sass/public/images/footer-bg-jpg')}}');";
     font-family: 'Luckiest Guy', cursive;
+    background-image: url('/images/footer-bg.jpg');
+    // {{-- <img src="{{ asset('images/footer-bg.jpg') }}" alt="jumbotron"> --}}
 }
 
 

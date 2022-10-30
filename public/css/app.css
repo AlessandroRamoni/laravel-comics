@@ -75,7 +75,9 @@ header ul li a:hover {
 }
 
 header .contenitore-immagine {
-  max-width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  height: 350px;
+  background-position: top center;
 }
 
 header .contenitore-immagine img {
@@ -89,8 +91,8 @@ header .contenitore-immagine img {
 }
 
 footer {
-  background-image: "url('{{ asset('../partials/sass/public/images/footer-bg-jpg')}}');";
   font-family: "Luckiest Guy", cursive;
+  background-image: url("/images/footer-bg.jpg");
 }
 
 footer .container-footer .container-elenchi div ul li {
