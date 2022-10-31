@@ -78,6 +78,7 @@ header .contenitore-immagine {
   background-image: url("/images/jumbotron.jpg");
   height: 350px;
   background-position: top center;
+  background-size: cover;
 }
 
 header .contenitore-immagine img {
