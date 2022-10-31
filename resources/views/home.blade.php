@@ -3,14 +3,14 @@
 @section('nomePerIlCollegamento')
     <div class="container-fumetti">
         <div class="copertine">
-            @foreach ($comics as $item => $formato)
+            @foreach ($comics as $item => $elemento)
                 <div class="card">
                     <div class="contenitore-immagine">
-                        <img src="{{ $formato['thumb'] }}" alt="{{ $formato['title'] }}">
+                        <img src="{{ $elemento['thumb'] }}" alt="{{ $elemento['title'] }}">
                     </div>
                     <div class="contenitore-titolo">
                         <h2>
-                            {{ $formato['title'] }}
+                            {{ $elemento['title'] }}
                         </h2>
                     </div>
                 </div>
