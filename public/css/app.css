@@ -62,7 +62,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-  border-bottom-color: 3px solid rgb(6, 6, 187);
+  border-bottom-color: 3px solid #0282f9;
 }
 
 header ul li a {
@@ -71,7 +71,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: rgb(6, 6, 187);
+  color: #0282f9;
 }
 
 header .contenitore-immagine {
@@ -203,6 +203,43 @@ section nav .container-banner ul li {
   align-items: center;
   padding: 20px 0px;
   font-size: 0.7em;
+}
+
+section nav .container-banner ul li a {
+  padding-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+section nav .container-banner ul li img {
+  width: 50px;
+}
+
+section {
+  background-color: #dddcdc;
+  font-family: "Luckiest Guy", cursive;
+}
+
+section nav .container-banner {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+section nav .container-banner ul {
+  list-style: none;
+  display: flex;
+  padding-top: 0px;
+}
+
+section nav .container-banner ul li {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  font-size: 0.7em;
+  border: 4px solid #c2c1c1;
+  border-right: 0px;
 }
 
 section nav .container-banner ul li a {

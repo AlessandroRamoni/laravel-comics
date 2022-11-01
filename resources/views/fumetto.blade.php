@@ -14,7 +14,7 @@
 
     @include('partials.header')
 
-    @include('partials.banner')
+    @include('partials.banner_fumetto')
 
     @include('partials.footer')
 
