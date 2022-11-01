@@ -1,4 +1,4 @@
-<section>
+<section id="banner_fumetto">
     <nav>
         <div class="container-banner">
             <ul>
