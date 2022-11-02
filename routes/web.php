@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comics = config('data.comics');
-    $dati = [
-        'comics' => $comics
-    ];
-    return view('home', $dati);
+    // $dati = [
+    //     'comics' => $comics
+    // ];
+    return view('home', compact('comics'));
 });
 
 Route::get('/fumetto', function () {

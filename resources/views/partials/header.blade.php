@@ -1,9 +1,9 @@
 <header>
     <nav>
         <ul class="menu-header">
-            <li><a href=""><img src="{{ asset('images/dc-logo.png') }}" alt="logo"></a></li>
+            <li><a href="http://127.0.0.1:8000"><img src="{{ asset('images/dc-logo.png') }}" alt="logo"></a></li>
             <li><a href="">CHARACTERS</a></li>
-            <li><a href="">COMICS</a></li>
+            <li><a href="http://127.0.0.1:8000/fumetto">COMICS</a></li>
             <li><a href="">MOVIES</a></li>
             <li><a href="">TV</a></li>
             <li><a href="">GAMES</a></li>
